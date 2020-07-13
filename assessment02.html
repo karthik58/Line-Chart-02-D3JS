@@ -84,11 +84,12 @@
 
 <body>
 	<main>
+	<h4>MultiLine chart</h4>
+
 		<div class='gia-chart-wrapper'>
 			<div class='gia-chart'></div>
 		</div>
 	</main>
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
 	<script>
 		//Margin conventions
@@ -246,13 +247,13 @@
 
 			//Append labels  
 		  	var labelBlue = svg.append("text")
-		      	.text("Blue states")
+		      	.text("One")
 		      	.attr("class", "labelBlue")
 		      	.attr("x", width/1.625)
 		      	.attr("y", height/5);    
 
 		  	var labelRed = svg.append("text")
-		      	.text("Red states")
+		      	.text("Two")
 		      	.attr("class", "labelRed")
 		      	.attr("x", width/1.575)
 		      	.attr("y", height/1.55);        
